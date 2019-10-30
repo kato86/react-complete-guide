@@ -8,13 +8,6 @@ class App extends Component {
     showPersons: false
   };
 
-  switchNameHandler = newName => {
-    // console.log('Was clicked!');
-    this.setState({
-      persons: [{ name: "Kamil", age: 33 }, { name: "Ania", age: 30 }]
-    });
-  };
-
   nameChangedHandler = event => {
     this.setState({
       persons: [
