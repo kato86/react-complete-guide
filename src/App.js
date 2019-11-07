@@ -29,7 +29,6 @@ class App extends Component {
     };
 
     person.name = event.target.value;
-
     const persons = [...this.state.persons];
     persons[personIndex] = person;
 
@@ -79,7 +78,6 @@ class App extends Component {
         {persons}
       </div>
     );
-    // return React.createElement('div', {className: 'App'}, React.createElement('h1', null, 'Hi i\'m a React App!!!'));
   }
 }
 
