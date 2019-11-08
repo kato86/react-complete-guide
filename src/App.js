@@ -8,7 +8,6 @@ class App extends Component {
       { id: "1", name: "Ka", age: 33 },
       { id: "2", name: "A", age: 35 },
       { id: "3", name: "M", age: 3 },
-      { id: "4", name: "MM", age: 0 }
     ],
     showPersons: false
   };
@@ -68,7 +67,6 @@ class App extends Component {
         </div>
       );
     }
-    // test
     return (
       <div className="App">
         <h1>Hi, I'm a React App</h1>
