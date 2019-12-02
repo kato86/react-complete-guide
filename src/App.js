@@ -7,7 +7,7 @@ class App extends Component {
     persons: [
       { id: "1", name: "Ka", age: 33 },
       { id: "2", name: "A", age: 35 },
-      { id: "3", name: "M", age: 3 },
+      { id: "3", name: "M", age: 3 }
     ],
     showPersons: false
   };
@@ -41,7 +41,8 @@ class App extends Component {
 
   render() {
     const style = {
-      backgroundColor: "red",
+      backgroundColor: "green",
+      color: "white",
       fontSize: "18px",
       border: "2px solid lightblue",
       padding: "10px",
@@ -66,7 +67,9 @@ class App extends Component {
           })}
         </div>
       );
+      style.backgroundColor = "red";
     }
+
     return (
       <div className="App">
         <h1>Hi, I'm a React App</h1>
