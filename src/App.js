@@ -74,7 +74,7 @@ class App extends Component {
         <p className={assignedClasses.join(" ")}>This is really working!</p>
         <button
           className={classes.Button}
-          alt={this.state.showPersons}
+          // alt={this.state.showPersons}
           onClick={this.togglePersonsHandler}
         >
           Switch Name
