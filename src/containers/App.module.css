@@ -11,7 +11,7 @@
 }
 
 .Button {
-  background-color: red;
+  background-color: green;
   color: white;
   font-size: 18px;
   border: 2px solid lightblue;
@@ -19,6 +19,6 @@
   cursor: pointer;
 }
 .Button:hover {
-  background-color: salmon;
+  background-color: yellowgreen;
   color: black;
 }
