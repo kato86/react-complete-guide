@@ -7,7 +7,7 @@ class Person extends Component {
   render() {
     console.log("[Person.js] rendering...");
     return (
-      <Auxiliary classes={classes.Person}>
+      <Auxiliary>
         <p onClick={this.props.click}>
           I'm a {this.props.name} and I am {this.age} years old.
         </p>
