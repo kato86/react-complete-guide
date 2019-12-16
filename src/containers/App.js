@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import classes from "./App.module.css";
 import Persons from "../components/Persons/Persons";
 import Cockpit from "../components/Cockpit/Cockpit";
-import withClass from "../hoc/withClass";
+import WithClass from "../hoc/WithClass";
 import Auxiliary from "../hoc/Auxiliary";
 import AuthContext from "../context/auth-context";
 // import ErrorBoundary from "../ErrorBoundary/ErrorBoundary";
@@ -124,4 +124,4 @@ class App extends Component {
   }
 }
 
-export default withClass(App, classes.App);
+export default WithClass(App, classes.App);

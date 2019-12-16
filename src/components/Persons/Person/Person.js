@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import Auxiliary from "../../../hoc/Auxiliary";
-import withClass from "../../../hoc/withClass";
+import WithClass from "../../../hoc/WithClass";
 import classes from "./Person.module.css";
 import AuthContext from "../../../context/auth-context";
 
@@ -51,4 +51,4 @@ Person.propTypes = {
   changed: PropTypes.func
 };
 
-export default withClass(Person, classes.Person);
+export default WithClass(Person, classes.Person);
