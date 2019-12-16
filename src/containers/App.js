@@ -5,7 +5,6 @@ import Cockpit from "../components/Cockpit/Cockpit";
 import WithClass from "../hoc/WithClass";
 import Auxiliary from "../hoc/Auxiliary";
 import AuthContext from "../context/auth-context";
-// import ErrorBoundary from "../ErrorBoundary/ErrorBoundary";
 
 class App extends Component {
   constructor(props) {

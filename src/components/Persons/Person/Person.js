@@ -14,7 +14,6 @@ class Person extends Component {
   static contextType = AuthContext;
 
   componentDidMount() {
-    // this.inputElement.focus();
     this.inputElementRef.current.focus();
     console.log(this.context.authenticated);
   }
@@ -35,9 +34,6 @@ class Person extends Component {
         <p>{this.props.children}</p>
         <input
           key="i3"
-          // ref={inputEl => {
-          //   this.inputElement = inputEl;
-          // }}
           ref={this.inputElementRef}
           type="text"
           onChange={this.props.changed}
